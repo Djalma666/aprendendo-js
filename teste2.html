@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+
+		<style type="text/css">
+
+		body { background-color:#000; }
+		#ima { display:block; margin:20px auto; }
+		#gem { display:block; margin:20px auto; }
+
+		</style>
+	</head>
+	<body onload="alert('HEY')">
+	<script type="text/javascript">
+		function mudar() {
+			document.getElementById("gem").src="image/01.jpeg";
+		}
+	</script>
+	<img id="ima" onclick="document.getElementById('ima').style.display='none'" onmouseover="alert('Oh, Lets Go!');" src="image/00.gif" />		
+	<img id="gem" onclick="mudar();" src="image/00.gif" />
+	</body>
+</html>

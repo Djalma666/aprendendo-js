@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+
+		<style type="text/css">
+
+		body { background-color:#000; }
+		#ima { display:block; margin:20px auto; }
+		#gem { display:block; margin:20px auto; }
+
+		</style>
+	</head>
+	<body>
+	<script type="text/javascript">
+		function mudar() {
+			var nomeCompleto;//undefined
+			//nomeCompleto = null;//null
+			//nomeCompleto = 5 * "Djalma"//NaN
+			//nomeCompleto = 11234543267898763e+589;//infinity
+			//nomeCompleto = 2 + Infinity;//infinity
+
+			const HORA_DO_DIA = 24;
+			
+			alert(nomeCompleto);
+			
+			document.getElementById("gem").src="image/01.jpeg";
+		}
+	</script>
+	<img id="ima" onclick="document.getElementById('ima').style.display='none'" src="image/00.gif" />		
+	<img id="gem" onclick="mudar();" src="image/00.gif" />
+	</body>
+</html>
